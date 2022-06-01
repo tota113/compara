@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+primeiro numero <input id="numero1" type="number"><br/>
+segundo numero <input id="numero2" type="number"><br/>
+<button onclick="media()">ve ai</button>
+
+
+<body>
+    <script type="text/javascript">
+
+function media(){
+   var numero1 = parseFloat(document.getElementById("numero1").value);
+   var numero2 = parseFloat(document.getElementById("numero2").value);
+
+        if(numero1>numero2)
+        alert(numero1 + " é maior");
+        else
+        alert(numero2 + " é maior")
+}
+
+
+
+    </script>
+</body>
+</html>
